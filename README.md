@@ -37,9 +37,7 @@ The priority levels for the tickets are as follows:
 
 ## File Structure
 
-The project is organized as follows:
 
-kanban-board-app/ ├── public/ ├── src/ │ ├── Assets/ │ ├── Components/ │ │ ├── LOADER.js │ │ ├── selection_pane.js │ │ ├── TICKET.js │ ├── Page/ │ │ ├── Dashboard.js │ ├── Styles/ │ ├── App.js │ ├── Config.js │ ├── FETCH_URL.js │ ├── index.js ├── .gitignore ├── package-lock.json ├── package.json ├── README.md
 
 
 ### Explanation
@@ -64,7 +62,7 @@ Follow these instructions to set up the application locally:
 ### Steps
 
 1. **Clone the Repository**:
-   ```bash
+   ```
    git clone https://github.com/s11saurabh/kanban-board-app.git
 
 
@@ -72,11 +70,15 @@ Follow these instructions to set up the application locally:
 cd kanban-board-app
 
  3.Install Dependencies:
+ ```
 npm install
+```
 
 
 4. Start the Development Server:
+ ```
 npm start
+```
 
 5.Open your browser and navigate to http://localhost:3000 to view the application.
 
@@ -95,9 +97,9 @@ The application automatically saves the user's selected view state, so the same 
 
 1.To build and deploy the application:
 Build the Production Version:
-
+```
 npm run build
-
+```
 2.The optimized build files will be created in the build directory. You can then deploy these files on any static hosting provider like Netlify, Vercel, or GitHub Pages.
 
 ## Contributing
@@ -105,15 +107,21 @@ Feel free to contribute to the project. Here's how you can get started:
 
 1.Fork the repository.
 2.Create a new branch
+```
 git checkout -b feature/your-feature-name
+```
 
 3.Make your changes.
 
 4.Commit your changes:
+```
 git commit -m 'Add new feature'
+```
 
 5.Push the branch:
+```
 git push origin feature/your-feature-name
+```
 
 6.Open a pull request.
 
@@ -122,8 +130,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgements
 
-```bash
+```
 1.The API used for fetching ticket data: https://api.quicksell.co/v1/internal/frontend-assignment
 2.Assets used in the design are stored in the Assets directory.
+```
 Contact
-If you have any questions or issues, please feel free to open an issue on GitHub or contact me directly.
+If you have any questions or issues, please feel free to open an issue on GitHub 
